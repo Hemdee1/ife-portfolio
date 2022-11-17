@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .line-bottom {
+    @apply border-b-primary border-2 border-x-0 border-t-0;
+  }
+}

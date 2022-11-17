@@ -1,0 +1,24 @@
+{
+  "name": "alao-ifeoluwa-portfolio",
+  "version": "1.0.0",
+  "description": "bigibranders portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebigibrand/Alao-Ifeoluwa-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebigibrand/Alao-Ifeoluwa-Portfolio/issues"
+  },
+  "homepage": "https://github.com/thebigibrand/Alao-Ifeoluwa-Portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
