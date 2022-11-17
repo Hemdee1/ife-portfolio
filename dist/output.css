@@ -594,6 +594,14 @@ video {
   width: 568px;
 }
 
+.w-\[440px\] {
+  width: 440px;
+}
+
+.w-\[440\.73px\] {
+  width: 440.73px;
+}
+
 .items-center {
   align-items: center;
 }
