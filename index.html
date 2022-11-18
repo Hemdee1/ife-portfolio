@@ -4,6 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  -->
+
+    <meta name="description" content="payment with crypto" />
+    <meta name="keywords" content="Your new crypto payment system" />
+    <meta name="author" content="Alao Ifeoluwa" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en" />
+    <meta property="og:site_name" content="maipay" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="robots" content="index,follow" />
+    <meta
+      property="og:title"
+      content="Maipay | your crypto new way of payment"
+    />
+    <meta property="og:url" content="https://maipay.co" />
+    <meta property="og:image"
+    content="https://res.cloudinary.com/alaoifeoluwa/image/upload/v1665158418/maipay/maipay_og_wmmqvw.jpg
+    <meta property="og:type" content="payment" />
+    <meta property="og:description" content="make payments with maipay" />
+
+    <!--  -->
     <link
       href="https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap"
       rel="stylesheet"
@@ -12,25 +33,57 @@
       href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@1,800,500,100,700,400,300,200,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/x-icon" href="/img/fav square.svg" />
     <link rel="stylesheet" href="dist/output.css" />
+    <script src="script.js" defer></script>
     <title>Alao Ifeoluwa Portfolio</title>
   </head>
-  <body class="bg-background h-screen w-full flex justify-center items-center">
-    <div class="w-[1160px] flex items-center gap-[125px]">
+  <body
+    class="relative flex justify-center w-full min-h-screen overflow-auto lg:overflow-hidden bg-background"
+  >
+    <!-- mouse effect -->
+    <div
+      class="absolute z-20 hidden w-8 h-8 border rounded-full lg:block border-mouse right-6 bottom-6"
+      aria-hidden="true"
+      id="outer-cursor"
+    ></div>
+    <div
+      class="w-[10px] h-[10px] rounded-full bg-mouse hidden lg:block absolute right-[35px] bottom-[35px] z-20"
+      aria-hidden="true"
+      id="inner-cursor"
+    ></div>
+
+    <!--  -->
+
+    <div
+      class="w-full break:w-[1160px] flex flex-col lg:flex-row items-center gap-[0] 2xl:gap-[125px] px-8 400px:px-10 break:px-0 my-10 break:my-0 break:mt-6 lg:mt-0"
+    >
       <!-- image -->
-      <img
-        src="image/picture.png"
-        alt="user-picture"
-        class="w-[440.73px] h-[655px]"
-      />
+      <div class="w-full break:w-auto">
+        <img
+          src="image/Alao Ifeoluwa.png"
+          alt="user-picture"
+          class="w-[118px] lg:w-[440.73px] h-[175.37px] lg:h-[655px] scale-100 lg:scale-[80%] 2xl:scale-100 mr-0 break:mr-[450px] lg:mr-0"
+        />
+      </div>
 
       <!-- content -->
-      <div class="w-[568px] font-Satoshi text-text">
-        <h3 class="font-black text-[32px]">hi 👋🏾, i'm</h3>
-        <h1 class="font-Cabinet text-[90px] font-black text-primary">
+      <div
+        class="w-full break:w-[568px] font-Satoshi text-text scale-100 lg:scale-[80%] 2xl:scale-100"
+      >
+        <h3
+          class="font-black text-[24px] lg:text-[32px] absolute top-[-27px] left-[150px] lg:relative lg:top-0 lg:left-0"
+        >
+          hi 👋, i'm
+        </h3>
+        <h1
+          class="font-Cabinet text-[40px] 400px:text-[50px] lg:text-[90px] font-black text-primary mt-6 lg:mt-0"
+        >
           Alao Ifeoluwa
         </h1>
-        <h2 class="text-[24px] font-medium leading-[32px] mt-[6px]">
+        <h2
+          class="text-[16px] lg:text-[24px] font-medium leading-[32px] mt-[6px]"
+        >
           I’m a product designer based in Ibadan, Nigeria. Currently I design
           with the team at
           <a href="#" target="_blank" class="line-bottom">BigiBrand</a>, and I
@@ -39,7 +92,9 @@
             >Other faces of Tech (O.F.T).</a
           >
         </h2>
-        <h2 class="text-[24px] font-medium leading-[32px] mt-[45px]">
+        <h2
+          class="text-[16px] lg:text-[24px] font-medium leading-[32px] mt-[30px] lg:mt-[45px]"
+        >
           In the past, I have worked with teams & brands like
           <a href="#" target="_blank" class="line-bottom">Maipay,</a>
           <a href="#" target="_blank" class="line-bottom">Pienexa,</a>
@@ -49,20 +104,24 @@
           I do post product development articles on
           <a href="#" target="_blank" class="line-bottom">Medium.</a>
         </h2>
-        <h2 class="text-[24px] font-medium leading-[32px] mt-[45px]">
+        <h2
+          class="text-[16px] lg:text-[24px] font-medium leading-[32px] mt-[30px] lg:mt-[45px]"
+        >
           When i’m not designing, i’m watching my favourite series -
           <a href="#" target="_blank" class="line-bottom">Lord of the Rings</a>
           or <a href="#" target="_blank" class="line-bottom">TEDx</a> or Sci-fi-
           <a href="#" target="_blank" class="line-bottom">StarWar.</a>
         </h2>
 
-        <div class="mt-[60px] text-[24px] font-medium">
+        <div
+          class="flex justify-start flex-wrap gap-2 break:gap-4 mt-[40px] lg:mt-[60px] text-[16px] lg:text-[24px] font-medium"
+        >
           <a href="#" target="_blank" class="line-bottom">Resume</a>
-          <span class="px-[28px]">|</span>
+          <span class="px-[15px] break::px-[28px]">|</span>
           <a href="#" target="_blank" class="line-bottom">Linkedin</a>
-          <a href="#" target="_blank" class="line-bottom ml-[6px]">Twitter</a>
-          <a href="#" target="_blank" class="line-bottom ml-[6px]">Instagram</a>
-          <a href="#" target="_blank" class="line-bottom ml-[6px]">Medium</a>
+          <a href="#" target="_blank" class="line-bottom">Twitter</a>
+          <a href="#" target="_blank" class="line-bottom">Instagram</a>
+          <a href="#" target="_blank" class="line-bottom">Medium</a>
         </div>
       </div>
     </div>

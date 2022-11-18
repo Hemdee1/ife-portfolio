@@ -11,6 +11,11 @@ module.exports = {
         background: "#030E02",
         primary: "#45CA2F",
         text: "#FFEFFD",
+        mouse: "#CBF1C5",
+      },
+      screens: {
+        break: "620px",
+        "400px": "400px",
       },
     },
   },
