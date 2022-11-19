@@ -519,11 +519,7 @@ video {
   border-right-width: 0px;
   border-top-width: 0px;
   --tw-border-opacity: 1;
-  border-bottom-color: rgb(69 202 47 / var(--tw-border-opacity));
-}
-
-.visible {
-  visibility: visible;
+  border-bottom-color: rgb(255 239 253 / var(--tw-border-opacity));
 }
 
 .absolute {

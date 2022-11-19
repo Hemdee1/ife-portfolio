@@ -4,6 +4,6 @@
 
 @layer components {
   .line-bottom {
-    @apply border-2 border-t-0 border-b-primary border-x-0;
+    @apply border-2 border-t-0 border-b-text border-x-0;
   }
 }
