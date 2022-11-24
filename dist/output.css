@@ -710,8 +710,8 @@ video {
   font-size: 24px;
 }
 
-.text-\[40px\] {
-  font-size: 40px;
+.text-\[47px\] {
+  font-size: 47px;
 }
 
 .text-\[16px\] {
@@ -738,17 +738,6 @@ video {
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(69 202 47 / var(--tw-text-opacity));
-}
-
-@media (min-width: 400px) {
-  .\34 00px\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .\34 00px\:text-\[50px\] {
-    font-size: 50px;
-  }
 }
 
 @media (min-width: 620px) {

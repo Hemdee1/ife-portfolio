@@ -15,7 +15,7 @@ module.exports = {
       },
       screens: {
         break: "620px",
-        "400px": "400px",
+
       },
     },
   },
